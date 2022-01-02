@@ -1,0 +1,37 @@
+/* XS - X-SMALL*/
+h1{
+    color: red;
+}
+
+
+/* SM - SMALL >= 576px */
+@media(min-width: 576px){
+    h1{
+        color: blue;
+    }
+}
+
+/* MD - MEDIUM >=768px */
+@media(min-width: 768px){
+    h1{
+        color: green;
+    }
+}
+
+/* LG - LARGE >=992px */
+@media(min-width: 992px){
+    h1{
+        color: purple;
+    }
+}
+
+/* XL - EXTRA LARGE >1200px */
+@media(min-width: 1200px){
+    h1{
+        color: yellow;
+    }
+}
+
+.btn-primary{
+    background-color: red;
+}
